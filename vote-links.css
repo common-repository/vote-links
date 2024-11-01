@@ -1,0 +1,17 @@
+a[rev="vote-for"] {
+        background: url(vote-for.png) center left no-repeat;
+        padding-left: 19px;
+        font-size: 14px;
+}
+
+a[rev="vote-against"] {
+        background: url(vote-against.png) center left no-repeat;
+        padding-left: 19px;
+        font-size: 14px;
+}
+
+a[rev="vote-abstain"] {
+        background: url(vote-abstain.png) center left no-repeat;
+        padding-left: 19px;
+        font-size: 14px;
+}

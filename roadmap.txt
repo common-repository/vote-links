@@ -1,0 +1,31 @@
+Vote-links
+
+- title and rev="vote-*" links
+-- add icons to show vote links
+-- below add div that has a graph in it
+
+- Database
+-- Create table on setup
+-- 6 fields :
+--- ID
+--- Vote Title
+--- Votes For
+--- Votes Against
+--- Abstensions
+--- Active (Y/N)
+-- check table for title
+-- if not then create one with that title and a new id
+
+- Actions
+-- Vote For
+--- ++ table->Votes For 
+-- Vote Against
+--- ++ table->Votes Against
+-- Abstain
+--- ++ table->Abstain
+-- Graph
+--- Get table->Vote Title
+--- Get table->Votes For
+--- Get table->Votes Against
+--- Get table->Abstentions
+--- Graph them all...using google
